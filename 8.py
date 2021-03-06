@@ -3,7 +3,7 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # hashmap for checking target 
-        # overall On
+        # overall O(n)
         
         orderedmap = {}
         

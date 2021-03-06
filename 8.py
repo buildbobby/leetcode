@@ -2,7 +2,8 @@
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # sort the array nlgn and then two pointers
+        # hashmap for checking target 
+        # overall On
         
         orderedmap = {}
         

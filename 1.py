@@ -15,5 +15,4 @@ class Solution:
                     permute_final.append(perm[:i] + [nums[0]] + perm[i:])
                 permute_final.append(perm + [nums[0]])
                     
-        
         return permute_final

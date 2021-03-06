@@ -10,9 +10,9 @@ class Solution:
             permute_before = self.permute(nums[1:])
             
             for perm in permute_before:
-                print (perm)
+                #print (perm)
                 for i in range(len(perm)):
                     permute_final.append(perm[:i] + [nums[0]] + perm[i:])
-                permute_final.append(perm + [nums[0]])
+                permute_final.append(perm + [nums[0]]) # edge case for last character of permutation
                     
         return permute_final

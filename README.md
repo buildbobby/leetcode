@@ -1,1 +1,1 @@
-# solutions to lc problems to interview prep
+# solutions to lc problems for interview prep
